@@ -48,3 +48,7 @@ input {
 ::placeholder{
     color: var(--text-color);
 }
+span{
+    display: block;
+    color: red;
+}
