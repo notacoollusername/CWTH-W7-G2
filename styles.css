@@ -1,0 +1,50 @@
+[data-theme="light"]{  
+  --primery-color:rgb(246, 243, 243);
+  --bg-color:rgb(128, 128, 128);
+  --btn-color:rgb(57, 57, 216);
+  --input-color:gray;
+  --text-color:black;
+}
+[data-theme="dark"] {
+    --primery-color:rgb(73, 70, 70);
+    --bg-color:rgb(128, 128, 128);
+    --btn-color:rgb(149, 20, 20);
+    --input-color:gray;
+    --text-color:black;
+}
+body{   
+     display: flex;
+    align-items: center;
+   
+    background-color: var(--bg-color);
+    justify-content: center;
+}
+
+.container{
+  
+    border: 1px solid rgb(13, 13, 13);
+    background-color: var(--primery-color);
+    width: 50%;
+    height: 50%;
+
+}
+.form{
+    padding: 1rem;
+    margin: 2rem;
+align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    background-color: var(--btn-color); 
+    color: var(--text-color);
+    padding: 5px 60px;
+}
+input {
+    background-color: var(--input-color);
+    color: var(--text-color);
+}
+::placeholder{
+    color: var(--text-color);
+}
